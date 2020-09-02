@@ -49,3 +49,19 @@ while game == "y":
         print("Please a number!!!")
 else:
     print("Game over.")
+    
+    
+#冰雹序列
+number = input("Please your number:")
+
+if number.isdigit() == True:
+    number = int(number)
+    while number > 1:
+        if number % 2 == 0:
+            number = number // 2
+            print(number)
+        else:
+            number = (number * 3) + 1
+            print(number)
+else:
+    print("Please a number!")
