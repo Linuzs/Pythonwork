@@ -35,3 +35,5 @@ print("#Welcome to the invincible Heroes game!#")
 print("#Your username is %s!"%(username))
 print("#Your password is %s!"%(hide_password * "*"))
 print("########################################")
+
+https://www.cloudflare.com/
