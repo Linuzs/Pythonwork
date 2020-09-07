@@ -38,3 +38,23 @@ while True:
     elif user_input == "d":
         world[up_down][left_right] = "#"
         left_right += 1    
+
+        
+        
+        
+        
+        
+        
+        
+        
+f = open("KMSWHS.txt")
+ff = f.read()
+fff = ff.split()
+d = {}
+for i in fff:
+    if i in d:
+        d[i] += 1
+    else:
+        d[i] =1
+print(d)
+f.close()
