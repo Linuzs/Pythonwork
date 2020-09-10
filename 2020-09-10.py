@@ -12,3 +12,15 @@ zhang = temp.Hero('zhangsan')
 li = temp.Hero('lisi')
 
 print(li.hit(zhang))
+
+
+try:
+    a = input("输入被除数：")
+    b = input("输入除数：")
+    c = int(a) / int(b)
+except ValueError:
+    print("请输入数字")
+except ZeroDivisionError:
+    print("不能为0")
+else:
+    print(c)
