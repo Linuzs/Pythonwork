@@ -24,3 +24,18 @@ except ZeroDivisionError:
     print("不能为0")
 else:
     print(c)
+
+    
+    import tkinter
+import turtle
+root = tkinter.Tk()
+label = tkinter.Label(root,text="你好")
+label.pack()
+button1 = tkinter.Button(root,text="五角星")
+button1.pack()
+def wjx(envent):
+    for i in range(5):
+        turtle.forward(100)
+        turtle.right(144)
+button1.bind('<Button-1>',wjx)
+root.mainloop()
